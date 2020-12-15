@@ -17,7 +17,7 @@ function FindingSumAndQuotient(firstNum, secondNum) {
     }
     else {
         let str = prompt('Введите значение');
-        alert(str + ` ${firstNum + secondNum}` + ` ${firstNum / secondNum}`);
+        alert(`${str} ${firstNum + secondNum} ${firstNum / secondNum}`);
     }
 }
 
