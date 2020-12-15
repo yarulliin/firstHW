@@ -1,7 +1,7 @@
 // Задание 1
 
 function TransferToNumSystem(firstNum, secondNum) {
-    if (!parseInt(firstNum) || !parseInt(secondNum)) {
+    if (isNaN(firstNum) || isNaN(secondNum) || secondNum < 2) {
         alert('Error!');
     }
     else {
@@ -12,7 +12,7 @@ function TransferToNumSystem(firstNum, secondNum) {
 // Задание 2
 
 function FindingSumAndQuotient(firstNum, secondNum) {
-    if (!parseInt(firstNum) || !parseInt(secondNum)) {
+    if (isNaN(firstNum) || isNaN(secondNum) || secondNum == 0) {
         alert('Error!');
     }
     else {
@@ -26,7 +26,7 @@ let secondNum = parseInt(prompt('Введите второе число'));
 
 TransferToNumSystem(firstNum, secondNum);
 
-firstNum = parseInt(prompt('Введите первое число'));
-secondNum = parseInt(prompt('Введите второе число'));
+firstNum = parseFloat(prompt('Введите первое число'));
+secondNum = parseFloat(prompt('Введите второе число'));
 
 FindingSumAndQuotient(firstNum, secondNum);
