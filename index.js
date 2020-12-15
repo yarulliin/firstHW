@@ -1,6 +1,6 @@
 // Задание 1
 
-function FirstTask(firstNum, secondNum) {
+function TransferToNumSystem(firstNum, secondNum) {
     if (!parseInt(firstNum) || !parseInt(secondNum)) {
         alert('Error!');
     }
@@ -11,7 +11,7 @@ function FirstTask(firstNum, secondNum) {
 
 // Задание 2
 
-function SecondTask(firstNum, secondNum) {
+function FindingSumAndQuotient(firstNum, secondNum) {
     if (!parseInt(firstNum) || !parseInt(secondNum)) {
         alert('Error!');
     }
@@ -24,9 +24,9 @@ function SecondTask(firstNum, secondNum) {
 let firstNum = parseInt(prompt('Введите первое число'));
 let secondNum = parseInt(prompt('Введите второе число'));
 
-FirstTask(firstNum, secondNum);
+TransferToNumSystem(firstNum, secondNum);
 
 firstNum = parseInt(prompt('Введите первое число'));
 secondNum = parseInt(prompt('Введите второе число'));
 
-SecondTask(firstNum, secondNum);
+FindingSumAndQuotient(firstNum, secondNum);
